@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://images.pexels.com/photos/8822081/pexels-photo-8822081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+    position: relative; /* Cambia la posición del contenedor a relativa */
+}
+
+button {
+    background-color: #ffdb58;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.flower-container {
+    position: relative; /* Cambia la posición del contenedor de las flores a relativa */
+}
+
+.flower {
+    position:; /* Cambia la posición de las flores a absoluta con respecto al contenedor */
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.flower1 {
+    top: 100px; /* Ajusta la posición vertical de la primera flor */
+    left: 20%;
+}
+
+.flower2 {
+    top: 100px; /* Ajusta la posición vertical de la segunda flor */
+    left: 50%;
+}
+
+.flower3 {
+    top: 100px; /* Ajusta la posición vertical de la tercera flor */
+    left: 80%;
+}
+
+.flower:hover {
+    transform: scale(1.2);
+}
+
+.flower1 {
+    top: 100px; /* Ajusta la posición vertical de la primera flor */
+    left: 20%;
+    width: 600px; /* Ancho de la primera flor */
+    height: auto; /* Autoajusta la altura para mantener la proporción */
+}
